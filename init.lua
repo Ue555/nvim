@@ -11,6 +11,3 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 
 --デフォルトの設定(vim利用時の設定)
 require "base"
-
---クリップボード設定
-vim.api.nvim_set_option('clipboard', 'unnamedplus')
