@@ -71,4 +71,10 @@ require("packer").startup(function()
       { "thinca/vim-prettyprint" },
     },
   }
+
+  -- ウィンドウサイズの変更を簡単・高速にするプラグイン
+  use 'simeji/winresizer'
+
+
+
 end)

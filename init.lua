@@ -11,3 +11,6 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 
 --デフォルトの設定(vim利用時の設定)
 require "base"
+
+--coc.nvimの関連の設定
+require "coc"
