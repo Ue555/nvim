@@ -17,8 +17,8 @@ require("packer").startup(function()
   -- .によるコマンド繰り返し機能をより強力にしてくれるプラグイン
   use "tpope/vim-repeat"
   -- coc.nvimのプラグイン
-  use { 'neoclide/coc.nvim', branch='release' }
-    use 'lervag/vimtex'
+  use { "neoclide/coc.nvim", branch="release" }
+  use "lervag/vimtex"
 
   --[[ On new systems install COC packages via
         CocInstall coc-vimtex coc-texlab
@@ -74,7 +74,5 @@ require("packer").startup(function()
 
   -- ウィンドウサイズの変更を簡単・高速にするプラグイン
   use 'simeji/winresizer'
-
-
 
 end)

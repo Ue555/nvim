@@ -23,7 +23,7 @@ set showcmd
 
 " 見た目系
 " 行番号を表示
-set number
+"set number
 
 " 現在の行を強調表示
 set cursorline
@@ -100,6 +100,7 @@ noremap <c-h> <c-w><c-h>
 noremap <c-j> <c-w><c-j>
 noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
+
 ]]
 
 --クリップボード設定
