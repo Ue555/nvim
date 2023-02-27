@@ -1,10 +1,10 @@
-# Neovimの設定
+# Neovim の設定
 
 ## Quickstart
 
 ### 1.最新版の Neovim をインストールする
 
->MacにNeovimをインストールする
+> Mac に Neovim をインストールする
 
 ```shell
 brew install neovim --HEAD
@@ -28,3 +28,12 @@ cd ~/.config/
 # Gitより設定をクローンする
 git clone https://github.com/Ue555/nvim.git
 ```
+
+### 3.prettier をプロジェクトにインストールする
+
+```shell
+
+npm install --save-dev --save-exact prettier
+```
+
+- 必要に応じて.prettierrc.json や.prettierignore の作成や設定をする
