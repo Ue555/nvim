@@ -75,4 +75,11 @@ require("packer").startup(function()
   -- ウィンドウサイズの変更を簡単・高速にするプラグイン
   use 'simeji/winresizer'
 
+  -- 各種ファイルのデフォルトのテンプレート挿入してくれるプラグイン
+  use 'mattn/vim-sonictemplate'
+  
+  -- 自作のメモを別ペインで表示するプラグイン
+  use 'reireias/vim-cheatsheet'
+
+
 end)

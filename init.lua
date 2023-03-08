@@ -20,3 +20,9 @@ require "command"
 
 -- ターミナルの設定
 require "terminal"
+
+-- テンプレートの設定
+require "templates"
+
+-- インストールしたプラグインの設定
+require "plugins-set"
